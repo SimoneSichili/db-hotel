@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.hotel {
+    width: calc(100% / 3 - 30px);
+    padding: 20px;
+    margin: 0 15px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.hotel hr {
+    margin: 10px 0;
+}
